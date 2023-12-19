@@ -22,4 +22,4 @@ while i <= 18:
     htmlMid += "<tr> <th></th> <th></th> <th></th> <th></th> <th></th> </tr>"
     i += 1
 
-HTML(string=htmlStart + htmlMid + htmlEnd).write_pdf('test17.pdf')
+HTML(string=htmlStart + htmlMid + htmlEnd).write_pdf('bill.pdf')
